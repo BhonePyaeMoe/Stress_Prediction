@@ -1,0 +1,26 @@
+{
+  "3class": {
+    "model": "Decision Tree",
+    "role": "simple",
+    "n_features": 7,
+    "nested_cv_macro_f1": 0.3127686220655693,
+    "best_overall_nested_cv_macro_f1": 0.3127686220655693,
+    "macro_f1_tolerance": 0.02,
+    "best_params": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 3
+    }
+  },
+  "5class": {
+    "model": "Decision Tree",
+    "role": "simple",
+    "n_features": 15,
+    "nested_cv_macro_f1": 0.20329381017481704,
+    "best_overall_nested_cv_macro_f1": 0.20329381017481704,
+    "macro_f1_tolerance": 0.02,
+    "best_params": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 3
+    }
+  }
+}

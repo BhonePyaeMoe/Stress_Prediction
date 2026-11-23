@@ -1,0 +1,41 @@
+{
+  "seven_features": [
+    "Average_sleep_duration_per_night",
+    "Sleep_quality",
+    "Hours_spent_daily_on_academic_activities",
+    "Physical_activity_per_week",
+    "Use_of_electronic_devices_before_bed",
+    "Night_time_caffeine_consumption",
+    "Diet_quality"
+  ],
+  "fifteen_features": [
+    "Average_sleep_duration_per_night",
+    "Sleep_quality",
+    "Hours_spent_daily_on_academic_activities",
+    "Physical_activity_per_week",
+    "Use_of_electronic_devices_before_bed",
+    "Night_time_caffeine_consumption",
+    "Diet_quality",
+    "Overwhelmed_by_academic_workload",
+    "Financial_stress_level",
+    "Strength_of_social_support",
+    "Bedtime_on_regular_nights",
+    "Daytime_sleepiness_during_classes",
+    "Focus_on_academic_tasks",
+    "Type_of_residence",
+    "Current_Study_Year"
+  ],
+  "target": "Current_stress_level",
+  "three_class_mapping": {
+    "1": "Low",
+    "2": "Low",
+    "3": "Medium",
+    "4": "High",
+    "5": "High"
+  },
+  "random_state": 42,
+  "split_file": "data/processed/split_indices.csv",
+  "training_rows": 240,
+  "test_rows": 60,
+  "note": "Existing survey data; no synthetic records. Test set was viewed in earlier exploratory work."
+}

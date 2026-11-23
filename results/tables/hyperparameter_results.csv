@@ -1,0 +1,9 @@
+target,n_features,model,grid_cv_macro_f1,best_params
+3class,7,Decision Tree,0.32565394950408827,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}"
+3class,7,Gradient Boosting,0.3066060649453214,"{""model__learning_rate"": 0.1, ""model__max_depth"": 2, ""model__n_estimators"": 40}"
+3class,15,Decision Tree,0.3369871502091889,"{""model__max_depth"": null, ""model__min_samples_leaf"": 8}"
+3class,15,Gradient Boosting,0.30042745370048496,"{""model__learning_rate"": 0.1, ""model__max_depth"": 2, ""model__n_estimators"": 80}"
+5class,7,Decision Tree,0.17261610313398318,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}"
+5class,7,Gradient Boosting,0.1853891528031097,"{""model__learning_rate"": 0.1, ""model__max_depth"": 1, ""model__n_estimators"": 80}"
+5class,15,Decision Tree,0.21693577744163287,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}"
+5class,15,Gradient Boosting,0.17305451377531492,"{""model__learning_rate"": 0.1, ""model__max_depth"": 2, ""model__n_estimators"": 80}"

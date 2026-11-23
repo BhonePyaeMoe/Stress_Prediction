@@ -1,0 +1,5 @@
+task,role,model,n_features,test_students,correct_predictions,test_accuracy,test_macro_f1,test_balanced_accuracy
+3class,selected,Decision Tree,7,60,25,0.4166666666666667,0.3387848035389019,0.34880952380952385
+3class,dummy_baseline,Dummy (most frequent),0,60,30,0.5,0.2222222222222222,0.3333333333333333
+5class,selected,Decision Tree,15,60,12,0.2,0.1310747223790702,0.1392857142857143
+5class,dummy_baseline,Dummy (most frequent),0,60,21,0.35,0.1037037037037037,0.2

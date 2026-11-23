@@ -1,0 +1,14 @@
+{
+  "simple": {
+    "model": "Decision Tree",
+    "screening_macro_f1": 0.30700578776995285
+  },
+  "complex": {
+    "model": "Gradient Boosting",
+    "screening_macro_f1": 0.30798576704520564
+  },
+  "screening_feature_set": "7",
+  "screening_target": "3class",
+  "screening_metric": "mean 5-fold macro-F1",
+  "all_scores_file": "results/tables/model_selection_6_models.csv"
+}
